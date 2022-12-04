@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+
+h3{
+    display:inline;
+}
+
+#checkhighscore{
+    float:left;
+} 
+
+
+#time{
+    float: right;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    height: 800px;
+    align-items: center;
+    align-content: center;
+    color:blue;
+    font-size:larger;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    color: blueviolet;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+}
+
+.firstpage{
+    display:none;
+}
