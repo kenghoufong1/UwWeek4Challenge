@@ -65,7 +65,7 @@ function Gameover() {
             score: timeleftreal
         };
         localStorage.setItem("Score",JSON.stringify(namescore));
-        window.location='index.html';
+        window.location='highscore.html';
     })
 }
 //create a function that will 
